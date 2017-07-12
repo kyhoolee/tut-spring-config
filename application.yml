@@ -1,5 +1,5 @@
-#configuration:
-#  projectName: sampleconfigclient
+configuration:
+  projectName: sampleconfigclient
 #spring:
 #  profiles: production
 server:  
