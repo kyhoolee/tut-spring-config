@@ -1,0 +1,15 @@
+spring:  
+  profiles: prod
+datasource:
+  url: jdbc:mysql://localhost:3306/prod?useSSL=false
+  username: root_prod
+  password: root_prod
+---
+spring:  
+  profiles: dev
+
+datasource:
+  url: jdbc:mysql://localhost:3306/dev?useSSL=false
+  # Username and password
+  username: root_dev
+  password: root_dev
