@@ -1,6 +1,1 @@
-configuration:  
-  projectName: config-client
-server:
-  port: 8880
-message:
-  greeting: Hello from the configuration! of me
+
