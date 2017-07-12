@@ -1,18 +1,24 @@
 datasource:
-  url: jdbc:mysql://localhost:3306/default?useSSL=false
-  username: root_default
-  password: root_default
+  url: jdbc:mysql://localhost:3306/default_sample?useSSL=false
+  username: root_default_sample
+  password: root_default_sample
+server:
+  port: 9001
 ---
 spring:
   profiles: development
 datasource:
-  url: jdbc:mysql://localhost:3306/dev?useSSL=false
-  username: root_dev
-  password: root_dev
+  url: jdbc:mysql://localhost:3306/dev_sample?useSSL=false
+  username: root_dev_sample
+  password: root_dev_sample
+server:
+  port: 9002
 ---
 spring:
   profiles: production
 datasource:
   url: jdbc:mysql://localhost:3306/prod?useSSL=false
-  username: root_prod
-  password: root_prod
+  username: root_prod_sample
+  password: root_prod_sample
+server:
+  port: 9003
