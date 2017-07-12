@@ -2,8 +2,6 @@ datasource:
   url: jdbc:mysql://localhost:3306/default_sample?useSSL=false
   username: root_default_sample
   password: root_default_sample
-server:
-  port: 9001
 ---
 spring:
   profiles: development
