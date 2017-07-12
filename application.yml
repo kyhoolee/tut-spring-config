@@ -1,5 +1,7 @@
 #configuration:
 #  projectName: sampleconfigclient
+spring:
+  profiles: production
 server:  
   port: 8088
 ---
