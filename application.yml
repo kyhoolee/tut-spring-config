@@ -1,10 +1,10 @@
-spring:  
-  profiles: prod
+configuration:
+  projectName: sampleconfigclient
 server:  
   port: 8088
 ---
-spring:  
-  profiles: dev
+spring:
+  profiles: development
 server:  
   port: 8080
 debug: true 
